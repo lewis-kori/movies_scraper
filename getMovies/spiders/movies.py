@@ -3,7 +3,7 @@ from ..items import GetmoviesItem
 from .config import API_KEY
 class moviesCrawl(Spider):
     name="movies"
-    page_number=2
+    page_number=15
 
     url_link="https://www.themoviedb.org/movie?page=1"
     
