@@ -5,9 +5,7 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
 
-import scrapy
-
-
+from scrapy import Item
 class GetmoviesItem(scrapy.Item):
     # define the fields for your item here like:
     title=scrapy.Field()

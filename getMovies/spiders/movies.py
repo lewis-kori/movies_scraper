@@ -1,4 +1,4 @@
-from scrapy import  Request,Spider
+from scrapy import Spider
 from ..items import GetmoviesItem
 from .config import API_KEY
 class moviesCrawl(Spider):
