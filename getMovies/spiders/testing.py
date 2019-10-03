@@ -1,5 +1,5 @@
 import requests
-YOURAPIKEY="3cc9724b88e8270117050243d5142488"
+YOURAPIKEY="get_yours_😂😂"
 payload = {'api_key': YOURAPIKEY, 'url':
 'https://httpbin.org/ip'}
 
